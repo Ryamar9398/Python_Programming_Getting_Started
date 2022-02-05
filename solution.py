@@ -7,7 +7,7 @@ def welcome_assignment_answers(question):
     #Another way to implement is using a "case" statements similar to C.
     global answer
     if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA":
-        answer = 5
+        answer = 'mtls'
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
     if question == "Is it possible to decrypt a message without a key? - Yes/No":
@@ -21,17 +21,17 @@ def welcome_assignment_answers(question):
     if question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
     if question == "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number":
-        answer = 'mtls'
+        answer = 5
     if question == "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric number":
         answer = 4
     return answer
 # Complete all the questions.
 
 
-#if __name__ == "__main__":
+if __name__ == "__main__":
     #use this space to debug and verify that the program works
-    #debug_question = "Are encoding and encryption the same? - Yes/No"
-    #print(welcome_assignment_answers(debug_question))
+    debug_question = "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA"
+    print(welcome_assignment_answers(debug_question))
 
 ###Questions:
 ###"In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?"
