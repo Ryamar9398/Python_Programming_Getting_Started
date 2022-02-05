@@ -8,8 +8,8 @@ def welcome_assignment_answers(question):
     global answer
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
-    if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA":
-        answer = "mtls"
+    if question == "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number":
+        answer = 5
     if question == "Is it possible to decrypt a message without a key? - Yes/No":
         answer = "No"
     if question == "Is it possible to decode a message without a key? - Yes/No":
@@ -20,8 +20,8 @@ def welcome_assignment_answers(question):
         answer = "42b76fe51778764973077a5a94056724"
     if question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
-    elif question == "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number":
-        answer = 5
+    if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA":
+        answer = "mtls"
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric number":
         answer = 4
     return answer
