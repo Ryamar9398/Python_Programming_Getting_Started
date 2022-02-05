@@ -9,7 +9,7 @@ def welcome_assignment_answers(question):
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
     if question == "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number":
-        answer = 5
+        answer = "mtls"
     if question == "Is it possible to decrypt a message without a key? - Yes/No":
         answer = "No"
     if question == "Is it possible to decode a message without a key? - Yes/No":
