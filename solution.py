@@ -7,7 +7,7 @@ def welcome_assignment_answers(question):
     #Another way to implement is using a "case" statements similar to C.
     global answer
     if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA":
-        answer = "mtls"
+        answer = 5
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
     if question == "Is it possible to decrypt a message without a key? - Yes/No":
